@@ -1,44 +1,40 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Exercicios Programação Dinamica
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 18<br>
+**Conteúdo da Disciplina**: Programação Dinamica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0020625|  João Pedro Anacleto Ferreira Machado |
+| 20/0072854 |  Bruno Seiji Kishibe |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Esse repositorio tem o objetivo de documentar a resolução dos problemas de programação dinamica 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Motoboy
+
+![becrowd motoboy](/motoboy/m2.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
+
+para rodar os algoritmos basta copiar os codigos disponibilizados nesse repositorio e testar na plataforma do beecrowd.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+- Clone o repositorio em sua maquina
+
+- para executar os problemas em c basta compilar, seguindo o exemplo: g++ nome_do_arquivo.cpp -o nome_do_arquivo
+
+- Apos isso basta executar via linha de comando com: /motoboy
+
+- Exemplo: g++ motoboy.cpp -o motoboy 
+
+OBS: para o windows compilar com :g++ nome_do_arquivo.cpp -o nome_do_arquivo.exe
+
 
 
 
