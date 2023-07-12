@@ -23,4 +23,4 @@ The input consists of T test cases. Each test case starts with an integer N (1 ‚
 For each test case print an integer that represents the total of products Dr Luis Cl√°udio can take home.
 
 
-![sample](/motoboy/p1.png)
+![sample](/promocao/p1.png)
