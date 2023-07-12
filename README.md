@@ -43,7 +43,7 @@ para rodar os algoritmos basta copiar os codigos disponibilizados nesse reposito
 
 OBS: para o windows compilar com :g++ nome_do_arquivo.cpp -o nome_do_arquivo.exe
 
+## Video apresentação
 
-
-
+O vídeo de apresentação pode ser encontrado em ![VIdeo](/Video.mp4).
 
