@@ -18,6 +18,14 @@ Esse repositorio tem o objetivo de documentar a resolução dos problemas de pro
 
 ![becrowd motoboy](/motoboy/m2.png)
 
+### Promocao
+
+![beecrowd promocao](/promocao/p2.PNG)
+
+### Movimento Cavalo
+
+![beecrowd cavalo](/cavalo/c2.PNG)
+
 ## Instalação 
 **Linguagem**: C++<br>
 
