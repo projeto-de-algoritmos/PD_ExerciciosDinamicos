@@ -1,17 +1,15 @@
 #include <cstdio>
 #include <iostream>
 using namespace std;
-#define LMAX 21
-#define CMAX 31
 #define max(a, b) a > b ? a : b
  
 struct Pedido{
-    int tempo;
-    int pizzas;
+    int peso;
+    int quantidade;
 };
  
-struct Pedido array[LMAX];
-int matriz[LMAX][CMAX];
+struct Pedido array[21];
+int matriz[21][31];
  
 int main()
 {
@@ -22,17 +20,17 @@ int main()
         cin >> P;
 
         for(int i = 1; i <= N; i++)
-           cin >> array[i].tempo >> array[i].pizzas;
+           cin >> array[i].peso >> array[i].quantidade;
  
         for(int i = 0; i <= N; i++){
             for(int j = 0; j <= P; j++){
                 if(i == 0 || j == 0)
                     matriz[i][j] = 0;
                 else{
-                    if(array[i].pizzas > j)
+                    if(array[i].quantidade > j)
                         matriz[i][j] = matriz[i - 1][j];
                     else
-                        matriz[i][j] = max(matriz[i - 1][j - array[i].pizzas] + array[i].tempo, matriz[i - 1][j]);
+                        matriz[i][j] = max(matriz[i - 1][j - array[i].quantidade] + array[i].peso, matriz[i - 1][j]);
                 }
             }
         }
